@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a295426e-3942-40a3-a742-b1275d10eb9a" name="Default Changelist" comment="" />
+    <list default="true" id="a295426e-3942-40a3-a742-b1275d10eb9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/FASPell-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FASPell-master/1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FASPell-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FASPell-master/README-CN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FASPell-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/create_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/create_tf_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/modeling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/tokenization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FASPell-master/char_sim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FASPell-master/data/char_meta.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FASPell-master/data/ocr_test_1000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FASPell-master/data/ocr_train_3575.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FASPell-master/faspell.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FASPell-master/faspell_configs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FASPell-master/masked_lm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FASPell-master/model_fig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FASPell-master/plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/proofreadv1-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/proofreadv1-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/33333333333.py" beforeDir="false" afterPath="$PROJECT_DIR$/33333333333.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +42,9 @@
   </component>
   <component name="JupyterTrust" id="774df279-09b4-4fbb-87e2-ad916c7ff857" />
   <component name="ProjectId" id="1e7pa3oTqwN2A7WKw3TjIiL9TH7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,16 +52,63 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FASPell-master/data" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\proofreadv1-master\FASPell-master\data" />
       <recent name="C:\Users\Administrator\Desktop\proofreadv1-master" />
+      <recent name="C:\Users\Administrator\Desktop\proofreadv1-master\FASPell" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main2">
+  <component name="RunManager" selected="Python.2312312">
+    <configuration name="2312312" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proofreadv1-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2312312.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="33333333333 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proofreadv1-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/33333333333.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="33333333333" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="proofreadv1-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,6 +123,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\proofreadv1-master\33333333333.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="faspell" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proofreadv1-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FASPell-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FASPell-master/faspell.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,7 +177,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main2" />
+        <item itemvalue="Python.2312312" />
+        <item itemvalue="Python.faspell" />
+        <item itemvalue="Python.33333333333 (1)" />
         <item itemvalue="Python.33333333333" />
       </list>
     </recent_temporary>
@@ -97,7 +194,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593682545033</updated>
-      <workItem from="1593682546862" duration="2019000" />
+      <workItem from="1593682546862" duration="5669000" />
+      <workItem from="1593729172675" duration="1285000" />
     </task>
     <servers />
   </component>
@@ -109,38 +207,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="480" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1593684125035" />
-    <state width="1237" height="205" key="GridCell.Tab.0.bottom" timestamp="1593684592892">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1593731471050">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593684592892" />
-    <state width="1237" height="205" key="GridCell.Tab.0.center" timestamp="1593684592892">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593731471050" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1593731471049">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593684592892" />
-    <state width="1237" height="205" key="GridCell.Tab.0.left" timestamp="1593684592892">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593731471049" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1593731471049">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593684592892" />
-    <state width="1237" height="205" key="GridCell.Tab.0.right" timestamp="1593684592892">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593731471049" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1593731471050">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593684592892" />
-    <state width="1237" height="205" key="GridCell.Tab.1.bottom" timestamp="1593684592892">
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593731471050" />
+    <state width="1237" height="205" key="GridCell.Tab.1.bottom" timestamp="1593731286791">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593684592892" />
-    <state width="1237" height="205" key="GridCell.Tab.1.center" timestamp="1593684592892">
+    <state width="1237" height="205" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593731286791" />
+    <state width="1237" height="205" key="GridCell.Tab.1.center" timestamp="1593731286791">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1593684592892" />
-    <state width="1237" height="205" key="GridCell.Tab.1.left" timestamp="1593684592892">
+    <state width="1237" height="205" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1593731286791" />
+    <state width="1237" height="205" key="GridCell.Tab.1.left" timestamp="1593731286790">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1593684592892" />
-    <state width="1237" height="205" key="GridCell.Tab.1.right" timestamp="1593684592892">
+    <state width="1237" height="205" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1593731286790" />
+    <state width="1237" height="205" key="GridCell.Tab.1.right" timestamp="1593731286791">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1593684592892" />
+    <state width="1237" height="205" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1593731286791" />
     <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1593683880772">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -164,6 +262,21 @@
           <line>10</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FASPell/faspell.py</url>
+          <line>672</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FASPell-master/faspell.py</url>
+          <line>630</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FASPell-master/faspell.py</url>
+          <line>676</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -181,5 +294,8 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/proofreadv1_master$main.coverage" NAME="main Coverage Results" MODIFIED="1593683365525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/proofreadv1_master$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1593683828923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proofreadv1_master$faspell.coverage" NAME="faspell Coverage Results" MODIFIED="1593731306345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FASPell-master" />
+    <SUITE FILE_PATH="coverage/proofreadv1_master$2312312.coverage" NAME="2312312 Coverage Results" MODIFIED="1593731471030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proofreadv1_master$33333333333__1_.coverage" NAME="33333333333 (1) Coverage Results" MODIFIED="1593731279559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
