@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a295426e-3942-40a3-a742-b1275d10eb9a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="774df279-09b4-4fbb-87e2-ad916c7ff857" />
+  <component name="ProjectId" id="1e7pa3oTqwN2A7WKw3TjIiL9TH7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\proofreadv1-master" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main2">
+    <configuration name="33333333333" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proofreadv1-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\proofreadv1-master\33333333333.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proofreadv1-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\proofreadv1-master\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main2" />
+        <item itemvalue="Python.33333333333" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a295426e-3942-40a3-a742-b1275d10eb9a" name="Default Changelist" comment="" />
+      <created>1593682545033</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593682545033</updated>
+      <workItem from="1593682546862" duration="2019000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="480" height="438" key="DebuggerActiveHint" timestamp="1593684125035">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="480" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1593684125035" />
+    <state width="1237" height="108" key="GridCell.Tab.0.bottom" timestamp="1593684465571">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="108" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593684465571" />
+    <state width="1237" height="108" key="GridCell.Tab.0.center" timestamp="1593684465571">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="108" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593684465571" />
+    <state width="1237" height="108" key="GridCell.Tab.0.left" timestamp="1593684465571">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="108" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593684465571" />
+    <state width="1237" height="108" key="GridCell.Tab.0.right" timestamp="1593684465571">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="108" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593684465571" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1593683944900">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593683944900" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1593683944900">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1593683944900" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1593683944900">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1593683944900" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1593683944900">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1593683944900" />
+    <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1593683880772">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="647" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1593683880772" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/33333333333.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/checkproof.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="txt" />
+        <watch expression="self.probBetweenTowTokens(&quot;%s%s%s&quot;%(tokenbuf,sInputResult[countj],sInputResult[countj+1]))&gt;0" />
+        <watch expression=" self.probBetweenTowTokens(&quot;%s%s%s&quot;%(tokenbuf,sInputResult[countj],sInputResult[countj+1]))" />
+        <watch expression="sInputResult[countj+1]" />
+        <watch expression="cn_words_dict" />
+        <watch expression="jieba_cut" />
+        <watch expression="seg_list" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/proofreadv1_master$main.coverage" NAME="main Coverage Results" MODIFIED="1593683365525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proofreadv1_master$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1593683828923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
