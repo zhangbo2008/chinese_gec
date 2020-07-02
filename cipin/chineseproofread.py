@@ -4,7 +4,7 @@ import jieba
 import os
 import sys
 import json
-from checkproof import proofcheck
+from cipin.checkproof import proofcheck
 
 class proofread:  # 吧数据集读进来.
     def __init__(self):

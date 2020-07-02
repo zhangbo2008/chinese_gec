@@ -2,28 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a295426e-3942-40a3-a742-b1275d10eb9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FASPell-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/README-CN.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/create_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/create_tf_record.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/modeling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/tokenization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/char_sim.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/data/char_meta.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/data/ocr_test_1000.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/data/ocr_train_3575.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/faspell.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/faspell_configs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/masked_lm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/model_fig.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cipin/readme日常开发规范" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/cipin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/proofreadv1-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/proofreadv1-master.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/33333333333.py" beforeDir="false" afterPath="$PROJECT_DIR$/33333333333.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2312312.py" beforeDir="false" afterPath="$PROJECT_DIR$/cipin/2312312.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/33333333333.py" beforeDir="false" afterPath="$PROJECT_DIR$/cipin/33333333333.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/cipin/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cipin/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkproof.py" beforeDir="false" afterPath="$PROJECT_DIR$/cipin/checkproof.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chineseproofread.py" beforeDir="false" afterPath="$PROJECT_DIR$/cipin/chineseproofread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cn_dict.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cipin/cn_dict.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/correct" beforeDir="false" afterPath="$PROJECT_DIR$/cipin/correct" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dicmap.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cipin/dicmap.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/cipin/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/token_freq_pos%40350k_jieba.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cipin/token_freq_pos%40350k_jieba.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/token_pinyin%4040k_sogou.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cipin/token_pinyin%4040k_sogou.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,17 +50,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/FASPell-master/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cipin" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\proofreadv1-master\cipin" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\proofreadv1-master\cipin" />
       <recent name="C:\Users\Administrator\Desktop\proofreadv1-master\FASPell-master\data" />
       <recent name="C:\Users\Administrator\Desktop\proofreadv1-master" />
       <recent name="C:\Users\Administrator\Desktop\proofreadv1-master\FASPell" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2312312">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="2312312" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="proofreadv1-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,29 +78,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2312312.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="33333333333 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="proofreadv1-master" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/33333333333.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\proofreadv1-master\cipin\2312312.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +100,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\proofreadv1-master\33333333333.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\proofreadv1-master\cipin\33333333333.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="33333333333" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proofreadv1-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\proofreadv1-master\cipin\33333333333.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="proofreadv1-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,12 +161,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cipin" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\proofreadv1-master\main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cipin/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,6 +177,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.2312312" />
         <item itemvalue="Python.faspell" />
         <item itemvalue="Python.33333333333 (1)" />
@@ -196,6 +197,7 @@
       <updated>1593682545033</updated>
       <workItem from="1593682546862" duration="5669000" />
       <workItem from="1593729172675" duration="1285000" />
+      <workItem from="1593731300382" duration="647000" />
     </task>
     <servers />
   </component>
@@ -203,26 +205,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="3" key="#Deployment" timestamp="1593731713662">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="3" key="#Deployment/0.0.1280.680@0.0.1280.680" timestamp="1593731713662" />
     <state width="480" height="438" key="DebuggerActiveHint" timestamp="1593684125035">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="480" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1593684125035" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1593731471050">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1593731955057">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593731471050" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1593731471049">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593731955057" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1593731955057">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593731471049" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1593731471049">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593731955057" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1593731955057">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593731471049" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1593731471050">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593731955057" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1593731955057">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593731471050" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593731955057" />
     <state width="1237" height="205" key="GridCell.Tab.1.bottom" timestamp="1593731286791">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -248,17 +254,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/33333333333.py</url>
+          <url>file://$PROJECT_DIR$/cipin/33333333333.py</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/checkproof.py</url>
+          <url>file://$PROJECT_DIR$/cipin/checkproof.py</url>
           <line>11</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
+          <url>file://$PROJECT_DIR$/cipin/main.py</url>
           <line>10</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -297,5 +303,6 @@
     <SUITE FILE_PATH="coverage/proofreadv1_master$faspell.coverage" NAME="faspell Coverage Results" MODIFIED="1593731306345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FASPell-master" />
     <SUITE FILE_PATH="coverage/proofreadv1_master$2312312.coverage" NAME="2312312 Coverage Results" MODIFIED="1593731471030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/proofreadv1_master$33333333333__1_.coverage" NAME="33333333333 (1) Coverage Results" MODIFIED="1593731279559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proofreadv1_master$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1593731955049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cipin" />
   </component>
 </project>

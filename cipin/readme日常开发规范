@@ -1,0 +1,15 @@
+docker run -ti --user root -p 10022:22 cf400d505583  /bin/bash
+
+
+/usr/sbin/sshd -D &
+
+
+
+# 日后开发流程规范:
+
+用pycharm链接,上面这个jiucuo的镜像里面,或者其他镜像里面. 如果开始开发推荐使用这个jiucuo,因为里面的
+基础库包已经都很全面了.然后,使用pycarm远程链接127.0.0.1:10022 就能进行linux python编程.之后直接commit
+成一个新的镜像即可.
+
+# 纠错项目在2222222里面
+#爬虫在tutorial里面运行main

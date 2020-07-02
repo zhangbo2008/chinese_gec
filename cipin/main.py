@@ -24,7 +24,7 @@ def construct_dict(file_path):
 
     return word_freq
 
-FILE_PATH = "token_freq_pos%40350k_jieba.txt"
+FILE_PATH = "token_freq_jieba.txt"
 phrase_freq = construct_dict( FILE_PATH ) #得到的是各单词词频,如：{'老师上课': '3', '老师傅': '62', '老师宿儒': '老师上课': '3', '老师傅': '62', }
 
 #构建一个自动更正

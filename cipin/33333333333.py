@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import sys
-from chineseproofread import proofread
-from checkproof import proofcheck
+from cipin.chineseproofread import proofread
+from cipin.checkproof import proofcheck
 
 def main():
     ptarget=proofread()
