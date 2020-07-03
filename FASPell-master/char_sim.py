@@ -113,7 +113,7 @@ class CharFuncs(object):
                      '\u2ffa': 'L',
                      '\u2ffb': 'M',}
 
-    @staticmethod
+    @staticmethod      # 导入字典.
     def load_char_meta(fname):
         data = {}
         f = open(fname, 'r', encoding='utf-8')

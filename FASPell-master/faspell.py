@@ -34,7 +34,7 @@ class LM_Config(object):
     else:
         init_checkpoint = CONFIGS["general_configs"]["lm"]["pre-trained"]
     bert_config = modeling.BertConfig.from_json_file(bert_config_file)
-    topn = CONFIGS["general_configs"]["lm"]["top_n"]
+    topn = CONFIGS["general_configs"]["lm"]["top_n"] # 选最佳的5个
 
 
 class Filter(object):

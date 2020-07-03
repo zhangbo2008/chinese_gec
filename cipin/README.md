@@ -12,9 +12,11 @@ https://github.com/hscspring/The-DataStructure-and-Algorithms/tree/master/Recurs
 
 
 
+这个算法最大的权限就是根本没有用上下文信息,只是字符串级别的算法.很low.
+随便举一个反例.我会去xxx. 虽然xxx跟去能匹配上.但是可能xxx跟我,会这些字放一起就会出现bug.不合乎逻辑
 
 
-
+之后专注于深度网络了.FASP模型.
 
 
 

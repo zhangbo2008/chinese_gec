@@ -39,7 +39,7 @@ class Config(object):
     bigrams = None  # pickle.load(open('bigram_dict_simplified.sav', 'rb'))
 
 
-class Model(object):
+class Model(object):# 整个模型就是对bert的简单封装
     def __init__(self, config):
         self.config = config
 
@@ -201,7 +201,7 @@ class Model(object):
         return output_tensor
 
 
-class MaskedLM(object):
+class MaskedLM(object): # 本质就是bert 进行finetune
     def __init__(self, config):
         self.config = config
 
