@@ -109,7 +109,7 @@ class BertModel(object):
   Example usage:
 
   ```python
-  # Already been converted into WordPiece token ids
+  # Already been converted into WordPiece token ids  # 输入一个二维数组, 每一个一维数组表示一个word,每一个数字表示一个wordpiece
   input_ids = tf.constant([[31, 51, 99], [15, 5, 0]])
   input_mask = tf.constant([[1, 1, 1], [1, 1, 0]])
   token_type_ids = tf.constant([[0, 0, 1], [0, 2, 0]])
@@ -163,7 +163,7 @@ class BertModel(object):
     batch_size = input_shape[0]
     seq_length = input_shape[1]
 
-    if input_mask is None:
+    if input_mask is None: # 如果没有mask就默认给一个. mask表示当前单词的注意力跟那些有关,跟哪些无关.
       input_mask = tf.ones(shape=[batch_size, seq_length], dtype=tf.int32)
 
     if token_type_ids is None:
@@ -413,7 +413,7 @@ def embedding_lookup(input_ids,
       shape=[vocab_size, embedding_size],
       initializer=create_initializer(initializer_range))
 
-  if use_one_hot_embeddings:
+  if use_one_hot_embeddings: # 这个永远不跑.因为bert从头训练(从one-hot)来跑实在太2b的想法了.
     flat_input_ids = tf.reshape(input_ids, [-1])
     one_hot_input_ids = tf.one_hot(flat_input_ids, depth=vocab_size)
     output = tf.matmul(one_hot_input_ids, embedding_table)

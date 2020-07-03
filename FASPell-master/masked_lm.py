@@ -44,7 +44,7 @@ class Model(object):# 整个模型就是对bert的简单封装
         self.config = config
 
         # placeholders
-        self.input_ids = tf.placeholder(tf.int32, [None, self.config.max_seq_length], name='input_ids')
+        self.input_ids = tf.placeholder(tf.int32, [None, self.config.max_seq_length], name='input_ids') # 输入句(batch_size,128)
         self.input_mask = tf.placeholder(tf.int32, [None, self.config.max_seq_length], name='input_mask')
         self.segment_ids = tf.placeholder(tf.int32, [None, config.max_seq_length], name='segment_ids')
         self.masked_lm_positions = tf.placeholder(tf.int32, [None, self.config.max_seq_length - 2],
@@ -123,7 +123,7 @@ class Model(object):# 整个模型就是对bert的简单封装
                      is_training,
                      bert_config):
         """Create Masked Language Model"""
-
+# 只有一个bert复用,其他没了
         model = modeling.BertModel(
             config=bert_config,
             is_training=is_training,
@@ -138,7 +138,7 @@ class Model(object):# 整个模型就是对bert的简单封装
 
         return masked_lm_loss, masked_lm_example_loss, masked_lm_log_probs, probs
 
-    @classmethod
+    @classmethod  # 返回model最终的输出.
     def get_masked_lm_output(cls, bert_config, input_tensor, output_weights, positions,
                              label_ids, label_weights):
         """Get loss and log probs for the masked LM."""
