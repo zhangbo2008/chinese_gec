@@ -5,6 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$/FASPell" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FASPell-master" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/cged_tf-master" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bert_for_corrector-master" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FASPell-master/bert_modified" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Remote Python 3.6.8 (sftp://root@127.0.0.1:10022/usr/bin/python3)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

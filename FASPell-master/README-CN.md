@@ -1,3 +1,37 @@
+
+
+
+
+
+这个模型需要自己训练了.
+
+把步奏都记录下来
+
+
+首先运行
+下载数据集:我下载了一份sighan8csc_release1.0
+
+$ python create_data.py -f /path/to/training/data/file
+
+
+
+
+
+
+
+
+
+
+$ python create_tf_record.py --input_file correct.txt --wrong_input_file wrong.txt --output_file tf_examples.tfrecord --vocab_file ../model/pre-trained/vocab.txt
+
+
+
+
+
+
+
+
+
 [English README](https://github.com/iqiyi/FASPell)
 
 # FASPell

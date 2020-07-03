@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # copy fom wikipedia
-
+# 只是一个当数据库用.
 zh2Hant = {
 '呆': '獃',
 "打印机": "印表機",
