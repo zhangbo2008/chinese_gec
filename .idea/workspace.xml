@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a295426e-3942-40a3-a742-b1275d10eb9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/ocr_test_1000.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FASPell-master/bert_modified/create_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/create_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FASPell-master/bert_modified/create_tf_record.py" beforeDir="false" afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/create_tf_record.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FASPell-master/faspell.py" beforeDir="false" afterPath="$PROJECT_DIR$/FASPell-master/faspell.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FASPell-master/faspell_configs.json" beforeDir="false" afterPath="$PROJECT_DIR$/FASPell-master/faspell_configs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FASPell-master/masked_lm.py" beforeDir="false" afterPath="$PROJECT_DIR$/FASPell-master/masked_lm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FASPell-master/README-CN.md" beforeDir="false" afterPath="$PROJECT_DIR$/FASPell-master/README-CN.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +202,7 @@
       <workItem from="1593682546862" duration="5669000" />
       <workItem from="1593729172675" duration="1285000" />
       <workItem from="1593731300382" duration="15861000" />
-      <workItem from="1593757156295" duration="30692000" />
+      <workItem from="1593757156295" duration="30737000" />
     </task>
     <servers />
   </component>
@@ -228,22 +222,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1051" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1593850747760" />
-    <state width="1237" height="190" key="GridCell.Tab.0.bottom" timestamp="1593851116604">
+    <state width="1237" height="217" key="GridCell.Tab.0.bottom" timestamp="1593851239680">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593851116604" />
-    <state width="1237" height="190" key="GridCell.Tab.0.center" timestamp="1593851116604">
+    <state width="1237" height="217" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593851239680" />
+    <state width="1237" height="217" key="GridCell.Tab.0.center" timestamp="1593851239680">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593851116604" />
-    <state width="1237" height="190" key="GridCell.Tab.0.left" timestamp="1593851116604">
+    <state width="1237" height="217" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593851239680" />
+    <state width="1237" height="217" key="GridCell.Tab.0.left" timestamp="1593851239680">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593851116604" />
-    <state width="1237" height="190" key="GridCell.Tab.0.right" timestamp="1593851116604">
+    <state width="1237" height="217" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593851239680" />
+    <state width="1237" height="217" key="GridCell.Tab.0.right" timestamp="1593851239680">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593851116604" />
+    <state width="1237" height="217" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593851239680" />
     <state width="1237" height="190" key="GridCell.Tab.1.bottom" timestamp="1593851116605">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -15,7 +15,7 @@ $ python create_data.py -f /path/to/training/data/file
 
 
 
-
+代码已经跑通.目前没有经过finetune, 直接用的bert模型.但是已经可以做部分语言的修正了.
 
 
 
