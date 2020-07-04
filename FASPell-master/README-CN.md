@@ -17,6 +17,8 @@ $ python create_data.py -f /path/to/training/data/file
 
 代码已经跑通.目前没有经过finetune, 直接用的bert模型.但是已经可以做部分语言的修正了.
 
+模型使用方法: 把模型不修改文件名的放入model中的2个文件夹中即可.一个pretairn 一个finetune
+
 
 
 
