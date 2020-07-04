@@ -33,7 +33,7 @@ class Config(object):
     max_seq_length = 16
     vocab_file = "model/pre-trained/vocab.txt"
     bert_config_file = "model/pre-trained/bert_config.json"
-    init_checkpoint = "model/pre-trained/bert_model.ckpt"
+    init_checkpoint = "model/pre-trained/bert_model.ckpt.data-00000-of-00001"
     bert_config = modeling.BertConfig.from_json_file(bert_config_file)
     topn = 5
     bigrams = None  # pickle.load(open('bigram_dict_simplified.sav', 'rb'))
@@ -215,7 +215,7 @@ class MaskedLM(object): # 本质就是bert 进行finetune
         self.session = tf.Session(config=session_conf)
 
         # load model
-        self.model = self.load_model(config)
+        self.model = self.load_model(config)# 权重文件的名字不能随便修改, 因为里面初始化参数里面有文件名的信息. 只能改代码配合model的name
         self.session.run(tf.global_variables_initializer())
 
         self.processor = Processor(config.vocab_file, config.max_seq_length)

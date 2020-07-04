@@ -2,40 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a295426e-3942-40a3-a742-b1275d10eb9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FASPell-master/D19-5522.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/sighan8csc_release1.0/Dry/SIGHAN15_CSC_DryInput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/sighan8csc_release1.0/Dry/SIGHAN15_CSC_DryTruth.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/sighan8csc_release1.0/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/sighan8csc_release1.0/SIGHAN8CSC_Overview.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/sighan8csc_release1.0/Test/SIGHAN15_CSC_TestInput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/sighan8csc_release1.0/Test/SIGHAN15_CSC_TestSummary.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/sighan8csc_release1.0/Test/SIGHAN15_CSC_TestTruth.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/sighan8csc_release1.0/Tool/SIGHAN15_Toy_Evaluation.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/sighan8csc_release1.0/Tool/SIGHAN15_Toy_Result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/sighan8csc_release1.0/Tool/SIGHAN15_Toy_Truth.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/sighan8csc_release1.0/Tool/sighan15csc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/sighan8csc_release1.0/Training/SIGHAN15_CSC_A2_Training.sgml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/sighan8csc_release1.0/Training/SIGHAN15_CSC_B2_Training.sgml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FASPell-master/char_sim2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_for_corrector-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_for_corrector-master/bert_corrector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_for_corrector-master/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_for_corrector-master/data/bert_models/chinese_finetuned_lm/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_for_corrector-master/langconv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_for_corrector-master/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_for_corrector-master/predict_mask.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_for_corrector-master/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_for_corrector-master/text_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/proofreadv1-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/proofreadv1-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/ocr_test_1000.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FASPell-master/README-CN.md" beforeDir="false" afterPath="$PROJECT_DIR$/FASPell-master/README-CN.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FASPell-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cged_tf-master/zh_wiki.py" beforeDir="false" afterPath="$PROJECT_DIR$/cged_tf-master/zh_wiki.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FASPell-master/bert_modified/create_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/create_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FASPell-master/bert_modified/create_tf_record.py" beforeDir="false" afterPath="$PROJECT_DIR$/FASPell-master/bert_modified/create_tf_record.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FASPell-master/faspell.py" beforeDir="false" afterPath="$PROJECT_DIR$/FASPell-master/faspell.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FASPell-master/faspell_configs.json" beforeDir="false" afterPath="$PROJECT_DIR$/FASPell-master/faspell_configs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FASPell-master/masked_lm.py" beforeDir="false" afterPath="$PROJECT_DIR$/FASPell-master/masked_lm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,7 +73,7 @@
       <recent name="C:\Users\Administrator\Desktop\proofreadv1-master\cipin" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.create_data">
+  <component name="RunManager" selected="Python.faspell">
     <configuration name="create_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="proofreadv1-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="faspell" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="proofreadv1-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,12 +126,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cged_tf-master" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FASPell-master" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cged_tf-master/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FASPell-master/faspell.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,23 +140,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in char_sim" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="masked_lm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="proofreadv1-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FASPell-master" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FASPell-master/char_sim.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FASPell-master/masked_lm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Doctests in char_sim2" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
@@ -188,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.create_data" />
+        <item itemvalue="Python.faspell" />
+        <item itemvalue="Python.masked_lm" />
         <item itemvalue="Python.create_tf_record" />
+        <item itemvalue="Python.create_data" />
         <item itemvalue="Python tests.Doctests in char_sim2" />
-        <item itemvalue="Python tests.Doctests in char_sim" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +208,7 @@
       <workItem from="1593682546862" duration="5669000" />
       <workItem from="1593729172675" duration="1285000" />
       <workItem from="1593731300382" duration="15861000" />
-      <workItem from="1593757156295" duration="631000" />
+      <workItem from="1593757156295" duration="30692000" />
     </task>
     <servers />
   </component>
@@ -229,54 +224,54 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="376" y="150" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1593733816738" />
-    <state width="1051" height="438" key="DebuggerActiveHint" timestamp="1593743242427">
+    <state width="1051" height="438" key="DebuggerActiveHint" timestamp="1593850747760">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1051" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1593743242427" />
-    <state width="1237" height="252" key="GridCell.Tab.0.bottom" timestamp="1593757624877">
+    <state width="1051" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1593850747760" />
+    <state width="1237" height="190" key="GridCell.Tab.0.bottom" timestamp="1593851116604">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="252" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593757624877" />
-    <state width="1237" height="252" key="GridCell.Tab.0.center" timestamp="1593757624876">
+    <state width="1237" height="190" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593851116604" />
+    <state width="1237" height="190" key="GridCell.Tab.0.center" timestamp="1593851116604">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="252" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593757624876" />
-    <state width="1237" height="252" key="GridCell.Tab.0.left" timestamp="1593757624876">
+    <state width="1237" height="190" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593851116604" />
+    <state width="1237" height="190" key="GridCell.Tab.0.left" timestamp="1593851116604">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="252" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593757624876" />
-    <state width="1237" height="252" key="GridCell.Tab.0.right" timestamp="1593757624877">
+    <state width="1237" height="190" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593851116604" />
+    <state width="1237" height="190" key="GridCell.Tab.0.right" timestamp="1593851116604">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="252" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593757624877" />
-    <state width="1237" height="252" key="GridCell.Tab.1.bottom" timestamp="1593757624877">
+    <state width="1237" height="190" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593851116604" />
+    <state width="1237" height="190" key="GridCell.Tab.1.bottom" timestamp="1593851116605">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="252" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593757624877" />
-    <state width="1237" height="252" key="GridCell.Tab.1.center" timestamp="1593757624877">
+    <state width="1237" height="190" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593851116605" />
+    <state width="1237" height="190" key="GridCell.Tab.1.center" timestamp="1593851116604">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="252" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1593757624877" />
-    <state width="1237" height="252" key="GridCell.Tab.1.left" timestamp="1593757624877">
+    <state width="1237" height="190" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1593851116604" />
+    <state width="1237" height="190" key="GridCell.Tab.1.left" timestamp="1593851116604">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="252" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1593757624877" />
-    <state width="1237" height="252" key="GridCell.Tab.1.right" timestamp="1593757624877">
+    <state width="1237" height="190" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1593851116604" />
+    <state width="1237" height="190" key="GridCell.Tab.1.right" timestamp="1593851116605">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="252" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1593757624877" />
-    <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1593683880772">
+    <state width="1237" height="190" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1593851116605" />
+    <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1593836155517">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="647" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1593683880772" />
+    <state width="647" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1593836155517" />
     <state x="197" y="80" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1593743389792">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="197" y="80" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1593743389792" />
-    <state x="332" y="95" width="617" height="490" key="find.popup" timestamp="1593757607602">
+    <state x="332" y="95" width="617" height="490" key="find.popup" timestamp="1593835657206">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="332" y="95" width="617" height="490" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1593757607602" />
+    <state x="332" y="95" width="617" height="490" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1593835657206" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -303,13 +298,8 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/FASPell-master/faspell.py</url>
-          <line>630</line>
+          <line>631</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/FASPell-master/faspell.py</url>
-          <line>676</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/FASPell-master/faspell.py</url>
@@ -320,11 +310,6 @@
           <url>file://$PROJECT_DIR$/FASPell-master/faspell.py</url>
           <line>22</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/FASPell-master/masked_lm.py</url>
-          <line>232</line>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/cged_tf-master/preprocess.py</url>
@@ -347,14 +332,24 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/FASPell-master/bert_modified/create_tf_record.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="16" />
+          <url>file://$PROJECT_DIR$/FASPell-master/bert_modified/create_data.py</url>
+          <line>189</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/FASPell-master/bert_modified/create_data.py</url>
-          <line>188</line>
-          <option name="timeStamp" value="17" />
+          <line>167</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FASPell-master/bert_modified/create_tf_record.py</url>
+          <line>621</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FASPell-master/faspell.py</url>
+          <line>656</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -387,21 +382,54 @@
         <watch expression="model.get_sequence_output()" />
         <watch expression="model.get_embedding_table()" />
         <watch expression="word" />
+        <watch expression="enumerate(zip(wrong, correct))" />
+        <watch expression="confusions" />
+        <watch expression="k[0]" />
+        <watch expression="confusions[k]" />
+        <watch expression="confusions_top" />
+        <watch expression="correct_count" />
+        <watch expression="range(min(len(confusions_top), 20))" />
+        <watch expression="confusions_top[i]" />
+        <watch expression="proportions" />
+        <watch expression="MaskedLmInstance" />
+        <watch expression="flags" />
+        <watch expression="FLAGS" />
+        <watch expression="vocab" />
+        <watch expression="self.vocab" />
+        <watch expression="self.wordpiece_tokenizer.tokenize(token)" />
+        <watch expression="all_documents" />
+        <watch expression="tokenizer.vocab" />
+        <watch expression="tokens" />
+        <watch expression="MaskedLmInstance(index=index, label=tokens[index])" />
+        <watch expression="instances" />
+        <watch expression="features" />
+        <watch expression="self.model" />
+        <watch expression="self.session.run(tf.global_variables_initializer())" />
+        <watch expression="Filter()" />
+        <watch expression="batch_size" />
+        <watch expression="sentences" />
+        <watch expression="sentences_to_be_corrected" />
+        <watch expression="args" />
+        <watch expression="top_n_predictions" />
+        <watch expression="res" />
+        <watch expression="extended_cand" />
+        <watch expression="results" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/proofreadv1_master$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1593746575437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cged_tf-master" />
     <SUITE FILE_PATH="coverage/proofreadv1_master$main.coverage" NAME="main Coverage Results" MODIFIED="1593683365525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/proofreadv1_master$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1593683828923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proofreadv1_master$masked_lm.coverage" NAME="masked_lm Coverage Results" MODIFIED="1593827530357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FASPell-master" />
     <SUITE FILE_PATH="coverage/proofreadv1_master$Doctests_in_char_sim.coverage" NAME="Doctests in char_sim Coverage Results" MODIFIED="1593757098715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FASPell-master" />
     <SUITE FILE_PATH="coverage/proofreadv1_master$test.coverage" NAME="test Coverage Results" MODIFIED="1593755365480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cged_tf-master" />
-    <SUITE FILE_PATH="coverage/proofreadv1_master$faspell.coverage" NAME="faspell Coverage Results" MODIFIED="1593743385873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FASPell-master" />
-    <SUITE FILE_PATH="coverage/proofreadv1_master$Doctests_in_char_sim2.coverage" NAME="Doctests in char_sim2 Coverage Results" MODIFIED="1593757214907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FASPell-master" />
     <SUITE FILE_PATH="coverage/proofreadv1_master$2312312.coverage" NAME="2312312 Coverage Results" MODIFIED="1593731471030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/proofreadv1_master$create_tf_record.coverage" NAME="create_tf_record Coverage Results" MODIFIED="1593757542780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FASPell-master/bert_modified" />
-    <SUITE FILE_PATH="coverage/proofreadv1_master$create_data.coverage" NAME="create_data Coverage Results" MODIFIED="1593757624849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FASPell-master/bert_modified" />
-    <SUITE FILE_PATH="coverage/proofreadv1_master$33333333333__1_.coverage" NAME="33333333333 (1) Coverage Results" MODIFIED="1593731279559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proofreadv1_master$create_tf_record.coverage" NAME="create_tf_record Coverage Results" MODIFIED="1593765231294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FASPell-master/bert_modified" />
     <SUITE FILE_PATH="coverage/proofreadv1_master$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1593732131461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cipin" />
+    <SUITE FILE_PATH="coverage/proofreadv1_master$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1593683828923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proofreadv1_master$faspell.coverage" NAME="faspell Coverage Results" MODIFIED="1593851116477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FASPell-master" />
+    <SUITE FILE_PATH="coverage/proofreadv1_master$Doctests_in_char_sim2.coverage" NAME="Doctests in char_sim2 Coverage Results" MODIFIED="1593757214907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FASPell-master" />
+    <SUITE FILE_PATH="coverage/proofreadv1_master$create_data.coverage" NAME="create_data Coverage Results" MODIFIED="1593758223474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FASPell-master/bert_modified" />
+    <SUITE FILE_PATH="coverage/proofreadv1_master$33333333333__1_.coverage" NAME="33333333333 (1) Coverage Results" MODIFIED="1593731279559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

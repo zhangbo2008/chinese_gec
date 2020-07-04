@@ -490,12 +490,13 @@ def repeat_test(test_path, spell_checker, repeat_num, is_train, train_on_differe
     w.write(json.dumps(correction_history, ensure_ascii=False, indent=4, sort_keys=False))
     w.close()
 
-
+# 下面这个函数就是所有的逻辑里面主要的函数!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 def repeat_non_test(sentences, spell_checker, repeat_num):
     all_results, correction_history = spell_checker.repeat_make_corrections(sentences, num=repeat_num,
                                                                             is_train=False,
                                                                             train_on_difference=True)
-
+    print(all_results,correction_history,"--------------------------------------------")
+    print('要的结果',correction_history,"--------------------------------------------")
     w = open(f'history.json', 'w', encoding='utf-8')
     w.write(json.dumps(correction_history, ensure_ascii=False, indent=4, sort_keys=False))
     w.close()
@@ -632,8 +633,9 @@ def main():
     args = parse_args()
 
 
-    args.m='f'
+    args.mode='f'
     args.f='1'
+    args.file='1'
     if args.mode == 's':  # command line mode
         try:
 
@@ -675,3 +677,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+    '''
+    去json里面直接修改      "pre-trained": "model/pre-trained/model.ckpt-10000",   为你最终的模型地址
+    即可. 也就是finetune之后的bert地址.
+    '''

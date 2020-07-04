@@ -27,7 +27,7 @@ def cut_line2(sentence):
                 sent = ''
 
 
-def make_docs(wrong, correct):
+def make_docs(wrong, correct): # 这个函数就是把数据写入文件.
     w_res = []
     if ('。' in wrong[:-1]) or ('；' in wrong[:-1]) or ('？' in wrong[:-1]) or ('！' in wrong[:-1]):
         for w_sent in cut_line(wrong):
@@ -78,12 +78,12 @@ def make_docs(wrong, correct):
 
 def main(fname, output_dir):
     confusions = {}
-
+    # 输入数据的格式是num, wrong, correct
     for line in open(fname, 'r', encoding='utf-8'):
         num, wrong, correct = line.strip().split('\t')
         wrong = wrong.strip()
         correct = correct.strip()
-        for w, c in zip(wrong, correct):
+        for w, c in zip(wrong, correct): # 挨个字符比较.所以这里面找到的也只是错字,如果多字少字,代码就会bug
             if w!=c:
                 if w + c not in confusions:
                     confusions[w + c] = 0
@@ -101,7 +101,7 @@ def main(fname, output_dir):
             make_docs(correct, correct)
 
         poses = [pos for pos, (w, c) in enumerate(zip(wrong, correct)) if w != c]
-        num = len(poses)
+        num = len(poses) # poses表示错误的index
 
         if num >= 2:
             if len(poses) != num:
@@ -109,7 +109,7 @@ def main(fname, output_dir):
                 print(correct)
                 exit()
             assert len(poses) == num
-            for i in range(1, num):
+            for i in range(1, num):          # 随便取一个pose
                 selected_poses = [poses[k] for k in np.random.choice(num, i, replace=False)]
                 fake_wrong = list(wrong)
                 for p in selected_poses:
@@ -122,14 +122,14 @@ def main(fname, output_dir):
 
     # take the top frequency of confusions about the each character.
     top_confusions = {}
-    for k in confusions:
+    for k in confusions: # confusions 就是混淆集 , top_confusions 记录混淆集错误字出现频率
         if k[0] not in top_confusions:
             top_confusions[k[0]] = confusions[k]
         elif top_confusions[k[0]] < confusions[k]:
             top_confusions[k[0]] = confusions[k]
-
+# confusions_top 里面放的东西表示最容易出错的从高到底排序.
     confusions_top = sorted(list(top_confusions.keys()), key=lambda x: top_confusions[x], reverse=True)
-
+# correct_count 正确字对统计.
     correct_count = {}
     for line_c, line_w in zip(open(os.path.join(args.output, 'correct.txt'), 'r', encoding='utf-8'), open(os.path.join(args.output, 'wrong.txt'), 'r', encoding='utf-8')):
         if line_c.strip():
@@ -145,9 +145,9 @@ def main(fname, output_dir):
     for k in correct_count:
         assert correct_count[k] != 0
         proportions[k] = min(top_confusions[k] / correct_count[k], 1.0)
-
+# 所以这个百分比就是出错率/正确率.
     print('confusion statistics:')
-
+# 就是打印一下前20个,而已,没啥意思.
     for i in range(min(len(confusions_top), 20)):
         if confusions_top[i] in correct_count:
             correct_occurs = correct_count[confusions_top[i]]
@@ -157,7 +157,7 @@ def main(fname, output_dir):
             proportions_num = 'NaN'
         print(f'most frequent confusion pair for {confusions_top[i]} occurs {top_confusions[confusions_top[i]]} times,'
               f' correct ones occur {correct_occurs} times, mask probability should be {proportions_num}')
-
+# 然后把proportions 概率, 这个概率表示单词出错的可能性, 写入文件.
     pickle.dump(proportions, open(os.path.join(args.output, 'mask_probability.sav'), 'wb'))
     # print('top confusions:')
     # for i in range(20):
@@ -170,7 +170,8 @@ def parse_args():
             '\n' \
             '\n2. specify output dir by:\n' \
             'python create_data.py -f /path/to/train.txt -o /path/to/dir/\n' \
-            '\n' 
+            '\n'
+    print('usagea',usage)
     parser = argparse.ArgumentParser(
         description='A module for FASPell - Fast, Adaptable, Simple, Powerful Chinese Spell Checker', usage=usage)
 
@@ -188,4 +189,5 @@ if __name__ == '__main__':
     args = parse_args()
     correct_file = open(os.path.join(args.output,'correct.txt'), 'w', encoding='utf-8')
     wrong_file = open(os.path.join(args.output,'wrong.txt'), 'w', encoding='utf-8')
+    args.file='ocr_test_1000.txt'
     main(args.file, args.output)

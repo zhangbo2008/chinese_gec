@@ -14,8 +14,8 @@
       "batch_size": 5,
       "vocab": "model/pre-trained/vocab.txt",
       "bert_configs": "model/pre-trained/bert_config.json",
-      "pre-trained": "model/pre-trained/bert_model.ckpt",
-      "fine-tuned": "model/fine-tuned/model.ckpt-10000",
+      "pre-trained": "model/pre-trained/bert_model.ckpt.data-00000-of-00001",
+      "fine-tuned": "model/fine-tuned/bert_model.ckpt",
       "fine_tuning_is_on": true
     }
   },

@@ -23,7 +23,7 @@ import random
 import tokenization
 import tensorflow as tf
 import pickle
-
+# 因为之前运行过create_data.py 所以我们之后就可以 直接运行这个create_tf_record.py来进行finetune.训练我们的自己的模型权重了!!!!!!!!!!
 
 MASK_PROB = pickle.load(open('mask_probability.sav', 'rb'))
 WRONG_COUNT = dict([(k, 0) for k in MASK_PROB])
@@ -394,7 +394,7 @@ def create_instances_from_document(
                 tokens.append("[SEP]")
                 wrong_tokens.append("[SEP]")
                 segment_ids.append(1)
-
+# 拼的跟bert一样.
                 if tokens == wrong_tokens:
                     (tokens, masked_lm_positions,
                      masked_lm_labels) = create_masked_lm_predictions(
@@ -501,7 +501,7 @@ def create_masked_lm_predictions_for_wrong_sentences(tokens, masked_lm_prob,
         elif token != wrong_tokens[i]:
             cand_indexes.append(i)
         else:  # when a token is not confused, add it to candidates according to its mask probability
-            if token in MASK_PROB:
+            if token in MASK_PROB: # 对于正确的token 他也有可能写错了,我们还是按照他的出错率给他放入.cand
                 if rng.random() < MASK_PROB[token]:
                     WRONG_COUNT[token] += 1
                     # print(f'cover {token} in wrong instance.')
@@ -606,8 +606,17 @@ def main(_):
 
 
 if __name__ == "__main__":
-    flags.mark_flag_as_required("input_file")
-    flags.mark_flag_as_required("wrong_input_file")
-    flags.mark_flag_as_required("output_file")
-    flags.mark_flag_as_required("vocab_file")
+    # flags.mark_flag_as_required("input_file")
+    # flags.mark_flag_as_required("wrong_input_file")
+    # flags.mark_flag_as_required("output_file")
+    # flags.mark_flag_as_required("vocab_file")
+    FLAGS.input_file='correct.txt'
+    FLAGS.wrong_input_file='wrong.txt'
+    FLAGS.output_file='tf_examples.tfrecord'
+    FLAGS.vocab_file='../model/pre-trained/vocab.txt'
+    '''
+    python create_tf_record.py --input_file correct.txt --wrong_input_file wrong.txt --output_file tf_examples.tfrecord --vocab_file ../model/pre-trained/vocab.txt
+    '''
+
+
     tf.app.run()
